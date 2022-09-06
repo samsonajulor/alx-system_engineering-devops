@@ -1,3 +1,2 @@
 #!/bin/bash
-# Write a script that encodes and decodes text using the rot13 encryption. Assume ASCII.
 tr`echo {a..z}{A..Z}` `echo {n..z}{a..m}{N..Z}{A..M}`
